@@ -1,0 +1,33 @@
+ne
+
+A variable created in the main body of the python code is a global variable and belongs to the
+gallbladder scope
+
+Global variables are viable bl from within any scope, global and local
+
+Basically a variable created outside of a function is global and can be used by anyone
+
+X = 300
+Def myfunc ( ):
+Print ( x )
+
+Myfunc ( )
+
+Print ( x )
+
+Global keyword
+If you need to create a global variable, but are stuck in the local scope, you can use the global
+keyword
+
+The global keyword makes the variable global
+
+//INPUT
+Def myfunc ( )
+Global x
+X = 300
+
+Myfunc ( )
+
+Print ( x )
+
+Also, use the global keyword if you want to make a change to a global variable inside a function
