@@ -1,0 +1,42 @@
+The min ( ) and max ( ) functions can be used to find the lowest or highest value in an iterable
+
+X = min (5, 10, 25 )
+Y = max (5, 10, 25 )
+Print ( x )
+Print ( y )
+
+The abs( ) function returns the absolute ( positive ) value of the specified number:
+X = abs( -7, 25)
+Print (x )
+
+The pow( x, y ) function returns the value of x to the power of y (x^y)
+X = pow(4, 3)
+Print (x)
+
+The math module
+Python has also a built in module called math, which extends the list of math functions
+To use it, you must import the math module
+Import math
+
+When you have imported the math module, you can start using methods and constants of the
+module
+
+The math.sqrt( ) method for example, returns the square root of a numbers
+
+Import math
+X = math.sqrt (64 )
+Print (x)
+
+The math.ceil( ) method rounds a number upwards to its nearest integer and the math.floor ( )
+method rounds a number downwards to its nearest integer and returns the result
+Import math
+X = math.ceil( 1, 4)
+Y = math.floor (1.4)
+Print ( x)
+Print ( y )
+
+The math.pi constant , returns the value of pi (3.14):
+
+Import math
+X = math.pi
+Print( x )
