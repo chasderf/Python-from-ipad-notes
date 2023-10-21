@@ -1,0 +1,9 @@
+The following example shows how to use a default parameter value
+If we call the function without argument, it uses the default value:
+
+Def my_function (country = “Norway”)
+Print (“I am from “ + country )
+My_function(“Sweden”)
+My_funciton(“India”)
+My_function( )
+My_function
