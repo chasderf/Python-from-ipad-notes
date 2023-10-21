@@ -1,0 +1,6 @@
+In python a function is defined using the def keyword
+
+Def my_function ( ):
+Print(“Hello from a function”)
+
+My_Function ( )
