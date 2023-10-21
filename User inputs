@@ -1,0 +1,5 @@
+Username = input ( :enter username: “)
+Print (“username is: “ + username )
+
+//OUPUYT
+ENTER username
