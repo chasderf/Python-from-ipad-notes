@@ -1,0 +1,16 @@
+Python dates
+
+A date in python is not a data type of its own, but we can import a module named datetime to
+work with dates as date objects
+
+Import datetime
+X = datetime.datetime.now ( )
+Print ( x )
+
+Date output
+When we execute the code form the example above the result will be
+
+2022-9-9 23:14:42
+
+The date contains year, month, day, hour, minute, second, and microsecond
+The datetime module has many methods to return information about the date object
