@@ -1,0 +1,9 @@
+If you don’t know how many keyword arguments that will be passed into your function add two
+asterisks ** before the parameter name in the function defintion
+This way the function will receive a dicitonary of arguments, and can access the items accordingly
+
+Def my_function (**kid):
+print(“His last name is “ + kid[ “ lname ”]
+My_function(fname = “Tobias”, lname = “Radoi” )
+
+Arbitrary kword arguments are often shortened to **kwargs in python documentations
