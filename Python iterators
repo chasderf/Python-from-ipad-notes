@@ -1,0 +1,66 @@
+An iterator is an object that contains a countable number of values
+
+An iterator is an object that a can be iterated upon, meaning that you can traverse through all the
+values
+
+Technically, in python, an iterator is an object which implements the iterator protocol, which consist
+of the methods _iter_( ) and _next_( )
+
+Iterator vs iterator
+Lists, tuples, disctionaries, and sets are all iterable objects. They are iterable containers which you
+can get an iterator from
+
+All these objects have a iter( ) method which is used to get an iterator::
+
+My tuple = (“a”, “b”, “c”)
+Myit = iter(mytuple)
+
+Print (next (myit) )
+Print (next (myit) )
+
+Print (next (myit) )
+
+Even strings are iterable objects and can return an iterator:
+
+Looping through an iterator
+
+We can also use a for loop to iterator though an iterable object
+
+//INPUT
+My tuple = (“a”, “b”, “c”)
+
+For x in mytuple:
+Print ( x )
+
+Create an iterator
+
+To create an object/class as an iterator you have to implement the methods _iter_ ( ) and _next _ ( )
+to your object
+
+As you have learned in the python classes/objects chapter, all classes have a function called
+
+_init_( ), which allows you to do some initializing when the object is being created
+
+The _iter_( ) method acts similar, you can do operations ( initializing etc ) , but must always return the
+iterator object itself
+
+The _next_( ) method also allows you to do operations and must return the next item in the
+sequence
+
+Stopiteration
+The example above would continue forever if you had enough next ( ) statements or if it was sued in
+a for loop
+
+To prevent the iteration to go on forever, we can use the stop iteration statement
+
+In the _next_ ( ) method , we can add a terminating condition to raise an error if the iteration is done
+a specified number of times
+
+Def _next_(self)
+
+If self.a <= 20:
+X = self.a
+Self.a += 1
+Return x
+Else:
+Raise stopiteration
