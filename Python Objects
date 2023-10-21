@@ -1,0 +1,100 @@
+Python is an oop language
+Almost everything in python is an object, with its properties and methods
+
+A class is like an object constructor or a blue print for creating objects
+
+Create a class
+
+To create a class use the keyword class:
+
+Classs MyClass
+X = 5
+
+Creating a new object
+Now we can use the class named myclass to create objects
+
+P1 = MyClass( )
+Print( p1.x)
+
+The_init_( ) function
+
+The examples above are classes and objects in their simplest form, and aren’t really useful in real
+life applications
+
+To understand the meaning of classes we have to understand the built in_init_( ) function
+
+All classes have a function called _init_( ) which is always executed when the class is being initiated
+
+Use the _init_( ) function to assign values to object properties or other operations that are
+necessary to do when the object is being created
+
+Class Person:
+def_init(self, name, age):
+self.name = name
+self.age = age
+
+P1 = person(“John”, 36)
+Print ( p1.name )
+Print ( p1.age )
+
+Note: the _init__( ) function is called automatically every time the class is being used to create. New
+object
+
+Object methods
+
+Objects can also contain methods. Methods in objects are functions that belong to the object
+
+Let’s create a method in the person class
+
+Class Person:
+def _init_ (self, name, age):
+self.name = name
+self.age = age
+
+def myfunc( self )
+print(“Hello My Name is “ + self.name )
+
+P1 = Person ( “John”, 36)
+P1.myfunc( )
+
+Note: the self parameter is a reference to the current instance of the class and is used to access
+variables that belong to the class
+
+The self parameter
+
+The self parameter is a reference to the current instance of the class, and is sued to access
+variables that belongs to the class
+
+It doesn’t have to be named self, you can call it whatever you like, but it has to be the first
+parameter of any function in the class
+
+Class Person:
+def _init_ (sillybilly, name, age):
+sillybilly.name = name
+sillybilly.age = age
+
+def myfunc ( sillybilly )
+print(“Hello My Name is “ + self.name )
+
+P1 = Person ( “John”, 36)
+
+P1.myfunc( )
+
+How to modify object properties
+
+You can modify properties on objects like this
+
+P1.age = 40
+
+Delete objects properties
+
+You can delete properties objectecs by using the del keyword
+Del p1.age
+
+The pass statement
+
+Class definitions can’t be empty, but if you for some reason have a class definition with no content,
+put it in the pass statement to avoid getting an error
+
+Class person
+Pass
