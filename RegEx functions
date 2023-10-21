@@ -1,0 +1,81 @@
+The re module offers a set of functions that allows us to search a string for a match
+
+Findall returns a list containing all matches
+Search returns a match object if there is a match anywhere in the string
+Split returns a list where the string has been split at each match
+Sub replaces one or many matches with a string
+
+Metacharacters
+
+Metacharacters are characters with a special meaning:
+
+[ ] a set of characters “[a-m]”
+\ signals a special sequence
+(can also be used to escape special characters ) “\d”
+
+. any characters ( except new line character ) “he...o”
+^ starts with “^hello”
+$ ends with “planet$”
+* zero or more occurrences x = re.findall (“he.*o” , txt )
+
++ one or more occurrences x = re.findall (“he.+o” , txt )
+? zero or more occurrences x = re.findall ( “he.?o” , txt )
+{ } exactly the specified number of occurrences “he.{2}o”
+| either or “falls|stays”
+( ) capture and group
+
+Special sequences
+
+A special sequnce is a | followed by one of the characters in the list below, and has a special
+meaning
+
+\A returns a match if the specified “\AThe”
+characters are at the beginning
+of the string
+
+\b Returns a match where the r”\brain”
+specified characters are at the r”ain\b”
+beginning or at the end of a word
+( the “r” in the beginning is making
+sure that the string is being treated
+as a “raw string”
+
+\b basically it checks if “ain” is X = re.findall ( r\”bain” , txt )
+present at the beginning of our variable
+
+\B returns a match where the specified
+characters are present but not at the
+beginning ( or at the end ) of a word
+( the “r” in the beginning is making
+sure that string is being treated as a
+“raw string” )
+
+\B basically it checks if “ain” is x = re.findall ( r”\Bain”, txt )
+present at the beginning of our
+variable
+
+\d checks if the string variable x = re.findall ( “\d” , txt )
+contains digits ( numbers from 0-9)
+
+\D returns a match where the string “\D”
+doesn’t contain digits
+
+returns a match at every no-digit
+character
+
+\s returns a match where the string x= re.findall ( “\s”, txt )
+contains a white space character
+
+\S returns a match where the string
+does NOT contain a white space character
+
+\w returns a match where the string contains
+any word characters ( characters from
+A to Z , digits from 0-9 , and the
+underscore _ character )
+
+\W returns a match where the string does
+NOT contain any word characters
+
+\Z returns a match if the characters
+are at the end of the string
