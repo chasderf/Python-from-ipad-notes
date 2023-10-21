@@ -1,0 +1,17 @@
+A variable is only available from inside the region it is created. This is called scope
+
+Local scope
+
+A variable created inside a function belongs to the local scope of that function and can only be used
+inside that funciton
+
+Def myfunc( )
+X = 300
+Print ( x )
+
+Myfunc( )
+
+Function inside function
+
+As explained in the example above, the variable x is not available outside the function, but it is
+available for any function inside the function
