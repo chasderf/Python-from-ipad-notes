@@ -1,0 +1,9 @@
+operators name example
++ addition x + y
+- subtraction x - y
+* multiplication x * y
+/ division x / y
+% modulus x % y
+** exponents x ** y { left to right variable 2^5 }
+// floor division x // y {rounds down to the low number }
+= x = 5 x =5
