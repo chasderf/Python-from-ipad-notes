@@ -1,0 +1,8 @@
+You can also send arguments with the key = value syntax
+This way the order of the arguments doesn’t matter
+
+Def my_function (child3, child2, child1):
+print(“The youngest child is “ + child3 )
+My_function (child1 = “Emil”, child2 = “Tobias”, child3 = “Linus”)
+
+The phrase keyword arguments are often shortened to kwargs in python documentations
