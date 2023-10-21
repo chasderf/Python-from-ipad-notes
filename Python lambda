@@ -1,0 +1,20 @@
+A lambda function is a small anonymous function
+A lambda function can take any number of arguments, but can only have one expression
+
+Syntax
+Lambda arguments : expression
+The expression is executed and the result is returned
+
+Add 10 to arguemnt a, and return the result:
+X = lambda a : a + 10
+Print(x(5))
+
+Lambda functions can take any number of arguments
+X = lambda a, b, c : a + b + c
+Print (x(5,7,2) )
+Why use lambda functions
+The power of lambda is better shown when you use them as an anonymous function inside another
+function
+
+Def myfunc(n)
+Return lambda a :a * n
