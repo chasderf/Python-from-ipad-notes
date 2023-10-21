@@ -1,0 +1,17 @@
+Information can be passed into function as arguments
+Arguments are speciofied after the function name, inside the parentheses, you can add as many
+arguments as you want, just speerate them with a comma
+The following example has a function with one argument (fname) when the function is called, we
+pass along a first name, which is used inside the function to print the full name
+
+//INPUT
+Def my_function(fname)
+Print ( fname + “Seager”)
+My_function ( “Emil”)
+My_function (“Tobias”)
+My_function (“Linus”)
+
+// OUTPUTS::
+Emil Seager
+Tobias Seager
+Linus Seager
