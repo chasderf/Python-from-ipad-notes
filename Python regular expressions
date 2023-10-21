@@ -1,0 +1,19 @@
+A regEx, or regular expression, is a sequence of characters that forms a search pattern
+
+RegEx can be used to check if a string contains the specified search pattern
+
+RegEx module
+
+Python has a built in package called re, which can be used to work with regular expressions
+
+Import the re module :
+
+Import re
+
+When you have importated the re, you can start using regular expressions
+
+Import re
+
+Txt = “The rain in Spain”
+
+X - re.search ( “ ^The.*Spain$, txt )
